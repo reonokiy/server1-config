@@ -26,6 +26,7 @@ Selected configuration and setup notes for `nokiy-server1`.
 - [GNOME app search shortcut](docs/gnome-search.md)
 - [Chinese Pinyin input setup](docs/chinese-ime.md)
 - [Initial performance screening](docs/performance.md)
+- [macOS RDP connection hang — investigation paused](docs/rdp-troubleshooting.md)
 
 Review files before installing them; this repository does not automatically apply configuration. Credentials, GitHub authentication state, private keys, and complete home-directory snapshots are excluded. GitHub authentication stays in the system keyring.
 
