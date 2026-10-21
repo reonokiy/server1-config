@@ -21,9 +21,9 @@ Run from this repository. Review upstream source before privileged installation.
 
 ```bash
 sudo apt-get install git build-essential dkms lm-sensors linux-headers-$(uname -r)
-git clone https://github.com/frankcrawford/it87.git ~/it87
-cd ~/it87
-git checkout bd7a566c8a60fe0308d67e26761e16260368191a
+git submodule update --init --recursive
+cd vendor/it87
+git rev-parse HEAD  # expected: bd7a566c8a60fe0308d67e26761e16260368191a
 make -j8
 sudo insmod ./it87.ko
 sensors
@@ -35,7 +35,7 @@ If another `it87` module is already loaded, inspect it before attempting the tes
 sudo make DRIVER=it87 DRIVER_VERSION=bd7a566.20261002 DKMS_ROOT_PATH=/usr/src/it87-bd7a566.20261002 dkms
 ```
 
-Return to this repository and install the tracked startup and display configuration:
+Return to the repository root (`cd ../..`) and install the tracked startup and display configuration:
 
 ```bash
 sudo install -m 644 etc/modules-load.d/it87.conf /etc/modules-load.d/it87.conf

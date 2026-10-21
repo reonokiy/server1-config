@@ -25,6 +25,20 @@ Selected configuration and setup notes for `nokiy-server1`.
 
 Review files before installing them; this repository does not automatically apply configuration. Credentials, GitHub authentication state, private keys, and complete home-directory snapshots are excluded. GitHub authentication stays in the system keyring.
 
+## Driver source
+
+The working community `it87` driver is included as a Git submodule at `vendor/it87`, pinned to the tested revision.
+
+```bash
+git clone --recurse-submodules https://github.com/reonokiy/server1-config.git
+```
+
+For an existing checkout:
+
+```bash
+git submodule update --init --recursive
+```
+
 ## Verify current state
 
 ```bash

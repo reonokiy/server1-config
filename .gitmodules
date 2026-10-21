@@ -1,0 +1,3 @@
+[submodule "vendor/it87"]
+	path = vendor/it87
+	url = https://github.com/frankcrawford/it87.git
