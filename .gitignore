@@ -1,0 +1,15 @@
+# Credentials and machine-local state
+.env
+.env.*
+!.env.example
+*credentials*
+*token*
+*.pem
+*.key
+hosts.yml
+.ssh/
+.aws/
+.cache/
+local/
+*.ko
+*.ko.*
