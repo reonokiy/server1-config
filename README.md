@@ -21,6 +21,7 @@ Selected configuration and setup notes for `nokiy-server1`.
 
 - [Mise and GitHub CLI setup](docs/user-tools.md)
 - [IT8696 fan monitoring fix and recovery](docs/fan-driver.md)
+- [Chinese Pinyin input setup](docs/chinese-ime.md)
 - [Initial performance screening](docs/performance.md)
 
 Review files before installing them; this repository does not automatically apply configuration. Credentials, GitHub authentication state, private keys, and complete home-directory snapshots are excluded. GitHub authentication stays in the system keyring.

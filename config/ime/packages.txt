@@ -1,0 +1,2 @@
+ibus-libpinyin
+fonts-noto-cjk
