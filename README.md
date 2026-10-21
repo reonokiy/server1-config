@@ -21,6 +21,7 @@ Selected configuration and setup notes for `nokiy-server1`.
 
 - [Mise and GitHub CLI setup](docs/user-tools.md)
 - [IT8696 fan monitoring fix and recovery](docs/fan-driver.md)
+- [GNOME app search shortcut](docs/gnome-search.md)
 - [Chinese Pinyin input setup](docs/chinese-ime.md)
 - [Initial performance screening](docs/performance.md)
 
