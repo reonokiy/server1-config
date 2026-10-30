@@ -12,6 +12,12 @@ IBus was restarted after installation, and `ibus list-engine` confirmed `libpiny
 
 ## Restore
 
+The 2026-10-30 desktop snapshot additionally records the current input source
+list (US English, libpinyin, Cassotis, and Rime), libpinyin preferences, and the
+personal extension that holds horizontal candidate popups at a stable anchor.
+See [GNOME desktop extensions and restore](gnome-desktop.md) for that configuration.
+The original setup script below only ensures libpinyin is installed and added.
+
 From a terminal in the logged-in GNOME desktop session, as the normal user:
 
 ```bash

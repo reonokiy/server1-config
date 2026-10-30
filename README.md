@@ -17,6 +17,9 @@ Selected configuration and setup notes for `nokiy-server1`.
 | `config/fontconfig/conf.d/60-english-chinese.conf` | `~/.config/fontconfig/conf.d/60-english-chinese.conf` |
 | `config/mise/config.toml` | `~/.config/mise/config.toml` |
 | `config/bash/mise.bash` | Bash activation snippet; see setup notes |
+| `config/gnome/desktop-settings.json` | Selected GSettings values; restore with the desktop setup script |
+| `config/gnome/rounded-window-corners.env` | Pinned personal rounded-corners fork and revision |
+| `config/gnome/extensions/stable-ibus-candidates@local/` | `~/.local/share/gnome-shell/extensions/stable-ibus-candidates@local/` |
 | `etc/modules-load.d/it87.conf` | `/etc/modules-load.d/it87.conf` |
 | `etc/sensors.d/gigabyte-it87.conf` | `/etc/sensors.d/gigabyte-it87.conf` |
 
@@ -25,6 +28,7 @@ Selected configuration and setup notes for `nokiy-server1`.
 - [English and Chinese font rendering](docs/fonts.md)
 - [GNOME app search shortcut](docs/gnome-search.md)
 - [Chinese Pinyin input setup](docs/chinese-ime.md)
+- [GNOME rounded windows, stable input candidates, and desktop restore](docs/gnome-desktop.md)
 - [Initial performance screening](docs/performance.md)
 - [macOS RDP connection hang — investigation paused](docs/rdp-troubleshooting.md)
 

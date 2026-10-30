@@ -1,0 +1,7 @@
+{
+  "uuid": "stable-ibus-candidates@local",
+  "name": "Stable IBus Candidates",
+  "description": "Keep IBus candidates horizontal and hold their cursor anchor while the popup is visible.",
+  "shell-version": ["51"],
+  "version": 1
+}
